@@ -4,9 +4,9 @@ provider "google" {
   zone    = var.zone
 }
 
-terraform {
+/* terraform {
     backend "gcs" {
         bucket = "projecttfstate"
         prefix = "terraform/state"
     }
-} 
+} */
